@@ -1,103 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
     <header>
        <h1>Meeting Minutes Tracker</h1>
         <link rel="icon" type="image/png" href="screenshots/Pelfusion-Long-Shadow-Ios7-Notes.png"/>
     </header>
     <body>
-    <main>
-        <h2>Welcome to Meeting Minutes Tracker!</h2>
-        <img src="https://e7.pngegg.com/pngimages/873/284/png-clipart-timer-clock-animation-cartoon-microphone-time-stopwatch.png">
+        <main>
+            <h2>Welcome to Meeting Minutes Tracker!</h2>
+            <img src="https://e7.pngegg.com/pngimages/873/284/png-clipart-timer-clock-animation-cartoon-microphone-time-stopwatch.png" alt="Timer">
 
-            <h2><strong> This website is intended to assist you and your team with remembering 
-                valueable information during team meeetings. <br> 
-                Please follow the steps below
-                and fill in all the required fields or click on the link to a printable form. hre
-            </strong> 
-            </h2>
-            <hr>
-                <nav>
-                    <a href="https://yourfreetemplates.com/meeting-minutes-template/">Click Here</a>
-                </nav>
-    <section>
+                <h2>
+                    <strong> This website is intended to assist you and your team with remembering 
+                    valueable information during team meeetings. <br> 
+                    Please follow the steps below
+                    and fill in all the required fields or click on the link to a printable form. hre
+                    </strong> 
+                </h2>
+                <hr>
+                    <nav>
+                        <a href="https://yourfreetemplates.com/meeting-minutes-template/">Click Here</a>
+                    </nav>
+        <section>
+            <div>
+            <h2>Note Generator</h2>
+                <p><em> Please fill out all input fields listed below</em></p>
+                <form>
+                    <fieldset>
+                        <label for="cars">Type of Meeting:</label>
+                        <select id="cars">
+                        <option>General Meeting</option>
+                        <option>Project Meeting</option>
+                        <option>Informal</option>
+                        <option>Peer Meeting</option>
+                        </select> <br>
+                    <label for="Title">Tittle: </label>
+                    <input type="text"><br>
+                    <label for="Purpose of Meeting">Purpose of Meeting: </label><br>
+                    <textarea rows="4" cols="50">
+                    </textarea> <br>
+                    <label for="Date"> Date: </label>
+                    <input type="date" id="start" name="trip-start" value="2018-07-22"
+                        min="2021-01-01" max="2022-12-31"><br>
+                    <label for="Time">Time: </label>
+                    <input type="text"><br>
+                    <label>Attendees:</label><br>
+                    <textarea id="Attende" name="Attendees" rows="4" cols="50">
+                    </textarea> <br>
+                    <label>Todays Agenda:</label><br>
+                    <textarea id="Agenda" name="Agendas" rows="4" cols="50">
+                    </textarea> <br>
+                    <label>Previous Meeting:</label><br>
+                    <textarea id="PMeet" name="PrevMeeting" rows="4" cols="50">
+                    </textarea> <br>
+                    <label>Comments/Questions/Concerns:</label><br>
+                    <textarea id="QA" name="Comments" rows="4" cols="50">
+                    </textarea> <br>
+                    <label for="Meeting priority">Pick a level of priority for the note:</label>
+                    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+                    <datalist id="ice-cream-flavors">
+                        <option value="Most Important">
+                        <option value="Important">
+                        <option value="Less Important">
+                        <option value="Not Important">
+                    </datalist>
+                </fieldset>
+                </form>
+            </div>
+            <Fieldset>
+            <details>
+                <summary>Reminders before Submitting</summary>
+                <ul>
+                    <li>Remember to take a screenshot of 
+                        generated note for personal reference</li>
+                    <li>Get concise points</li>
+                    <li>Double check Name, Date, Time, and purpose 
+                        of meeting is correct</li>
+                </ul>
+            </details>
+            </Fieldset>
+            <button type="submit" value="Submit">Submit</button>
+        </section>
         <div>
-        <h2>Note Generator</h2>
-            <p><em> Please fill out all input fields listed below</em></p>
-            <form>
-                <fieldset>
-                    <label for="cars">Type of Meeting:</label>
-                    <select id="cars">
-                    <option>General Meeting</option>
-                    <option>Project Meeting</option>
-                    <option>Informal</option>
-                    <option>Peer Meeting</option>
-                    </select> <br>
-                <label for="Note-Title">Tittle: </label>
-                <input type="text"><br>
-                <label for="Note-title">Purpose of Meeting: </label><br>
-                <textarea rows="4" cols="50">
-                </textarea> <br>
-                <label for="Date">Date: </label>
-                <input type="date" id="start" name="trip-start" value="2018-07-22"
-                    min="2021-01-01" max="2022-12-31"><br>
-                <label for="Time">Time: </label>
-                <input type="text"><br>
-                <label>Attendees:</label><br>
-                <textarea id="Attende" name="Attendees" rows="4" cols="50">
-                </textarea> <br>
-                <label>Todays Agenda:</label><br>
-                <textarea id="Agenda" name="Agendas" rows="4" cols="50">
-                </textarea> <br>
-                <label>Previous Meeting:</label><br>
-                <textarea id="PMeet" name="PrevMeeting" rows="4" cols="50">
-                </textarea> <br>
-                <label>Comments/Questions/Concerns:</label><br>
-                <textarea id="QA" name="Comments" rows="4" cols="50">
-                </textarea> <br>
-                <label for="Meeting-priority">Pick a level of priority for the note:</label>
-                <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
-                <datalist id="ice-cream-flavors">
-                    <option value="Most Important">
-                    <option value="Important">
-                    <option value="Less Important">
-                    <option value="Not Important">
-                </datalist>
-            </fieldset>
-              </form>
+            <h3>Example video footage from general body meeting</h3>
+            <ol>
+                <li> <iframe width="560" height="315" src="https://www.youtube.com/embed/oHcmLKroPqw">
+                </iframe></li>
+                <li>
+                <audio controls>
+                    <source src="cartoon-radio-signal.wav" type="audio/wav">
+                </audio>
+                </li>
+            </ol>
         </div>
-        <Fieldset>
-        <details>
-            <summary>Reminders before Submitting</summary>
-            <ul>
-                <li>Remember to take a screenshot of 
-                    generated note for personal reference</li>
-                <li>Get concise points</li>
-                <li>Double check Name, Date, Time, and purpose 
-                    of meeting is correct</li>
-            </ul>
-        </details>
-        </Fieldset>
-        <button type="submit" form="nameform" value="Submit">Submit</button>
-    </section>
-    <div>
-        <h3>Example video footage from general body meeting</h3>
-        <ol>
-            <li> <iframe width="560" height="315" src="https://www.youtube.com/embed/oHcmLKroPqw">
-            </iframe></li>
-            <li>
-            <audio controls>
-                <source src="cartoon-radio-signal.wav" type="audio/wav">
-            </audio>
-            </li>
-        </ol>
-    </div>
-    </main>
+        </main>
     <footer>
         <p>Author: Martin Flores<br>
         <a href="mailto:1234@ucsd.edu">1234@ucsd.edu</a></p>
       </footer>
       
     </body>
-</head>
 </html>
