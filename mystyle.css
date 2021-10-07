@@ -1,0 +1,16 @@
+body {
+    background-color: royalblue;
+  }
+  
+  h2{
+     color: rgb(20, 19, 20);
+     background-color: #09F7DD;
+     margin-left: auto;
+     margin-right: auto;
+     margin: 10px;
+     text-align: center;
+  }
+  img{
+      img-align: center;
+  }
+  
