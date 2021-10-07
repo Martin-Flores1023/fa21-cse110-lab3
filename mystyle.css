@@ -1,0 +1,60 @@
+body {
+    background-color: royalblue;
+  }
+  
+  h2{
+     color: rgb(20, 19, 20);
+     background-color: #09F7DD;
+     margin-left: auto;
+     margin: right auto;
+     margin: 10px;
+     text-align: center;
+  }
+  img{
+      display: inline-block;
+      height: 175px;
+      width: 300px;
+    
+  }
+  nav{
+      text-align: center;
+      text-;
+  }
+  form{
+      border-style:ridge;
+      border-color: hsla(black, 50%, 20, 2);
+      border-width: 100%;
+      border-radius: 0%;
+      position: relative;
+      background-color: #09F7DD;
+      display: grid | inline-flex;
+  }
+
+  details{
+    border-style: ridge;
+    border-width: 100%;
+    border-radius: 0%;
+    position: relative;
+  }
+
+  section{
+    padding-top: 5%;
+    text-align: center;
+    padding: bottom 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h3{
+      display: inline-flex;
+      background-color: #09F7DD;
+  }
+
+  li{
+    text-align: center;
+  }
+
+  footer{
+      text-align: center;
+  }
+  
