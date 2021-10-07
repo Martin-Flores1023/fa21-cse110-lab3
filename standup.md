@@ -1,25 +1,45 @@
 # Daily StandUp Notes Template
 -------------------------------
-
-## What did I work on yesterday?
+## Project Name: 
 ---
-**NOTE**
-
+**ID/NAME**:
 
 
 ---
 
-## What am I working on today?
+## Speaker/Project Manager: 
 ---
-**NOTE**
+**NAME**:
+
+
+---
+## Date and Time of Meeting:
+---
+**DATE**:
 
 
 
 ---
 
-## What issues are blocking me?
+## What did I work on yesterday?:
 ---
-**NOTE**
+**BRIEF SUMMARY**:
+
+
+
+---
+
+## What am I working on today?:
+---
+**TASK LIST**:
+
+
+
+---
+
+## What issues are blocking me?:
+---
+**ISSUES/BUGS/QUESTIONS**:
 
 
 
