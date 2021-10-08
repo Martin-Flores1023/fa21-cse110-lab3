@@ -5,7 +5,11 @@
 body {
     background-color: rgb(233, 14, 14);
   }
-  
+  #Note{
+    display:flex;
+    display: grid;
+  }
+
   div  p{
     color:ivory;
      background-color: grey;
@@ -111,8 +115,9 @@ body {
         text-align: center;
         color:ivory;
     }
+
     @media screen and (max-width: 600px) {
-        div.mp3 {
+        video {
           display: none;
         }
       }
