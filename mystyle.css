@@ -22,7 +22,7 @@ body {
   }
   nav{
       text-align: center;
-      color: white;
+      color:black;
   }
   form{
       border-style:ridge;
@@ -36,7 +36,24 @@ body {
     }
     
     #cars{
+        padding-top: 0cm;
+        padding-bottom: 0cm;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
 
+    #Tittle,#Date{
+        padding-top: 0cm;
+        padding-bottom: 0cm;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #Attende, #Agenda, #Pmeet, #QA{
+        padding-top: 0cm;
+        padding-bottom: 0cm;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
     button:hover{
         color:red;
@@ -53,7 +70,7 @@ body {
         border-style: ridge;
         border-width: 100%;
         border-radius: 0%;
-        position: relative;
+        position: static;
     }
 
     section{
@@ -67,11 +84,12 @@ body {
     h3,summary{
         display: inline-flex;
         color:ivory;
-     background-color: black;
+        background-color: black;
+        text-size-adjust:initial;
     }
 
-    summary:hover{
-        color: blue;
+    summary:active{
+        color: yellow;
     }
     
     ul{
