@@ -6,11 +6,11 @@ body {
     background-color: rgb(233, 14, 14);
   }
   
-  p{
+  div  p{
     color:ivory;
-     background-color: black;
+     background-color: grey;
   }
-  h2{
+    h2{
      color:ivory;
      background-color: black;
      margin-left: auto;
@@ -18,13 +18,13 @@ body {
      margin: 10px;
      text-align: center;
   }
-  img{
+  div + a[Timer]{
       display: inline-block;
       height: 175px;
-      width: 300px;
+      width: 400px;
     
   }
-  nav{
+  div ~ nav{
       text-align: center;
       color:black;
   }
@@ -64,6 +64,7 @@ body {
     }
     button:hover{
         color:red;
+        
     }
     .button {
         padding: 10px;
@@ -80,12 +81,14 @@ body {
         position: static;
     }
 
-    section{
+   section{
         padding-top: 5%;
         text-align: center;
         padding: bottom 5%;
         padding-left: 5%;
         padding-right: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
     }
 
     h3,summary{
@@ -108,11 +111,28 @@ body {
         text-align: center;
         color:ivory;
     }
+    @media screen and (max-width: 600px) {
+        div.mp3 {
+          display: none;
+        }
+      }
+
+    div > audio{
+        align-items: center;
+        padding: top 2px;
+        padding: right 2px;
+        padding: left 2px;
+        padding: bottom 2px;
+    }
 
 
   footer{
       text-align: center;
       color:ivory;
       background-color: black;
-  }
+        padding: top 10px;
+        padding: right 2px;
+        padding: left 2px;
+        padding: bottom 2px;
+    }
   
