@@ -5,10 +5,7 @@
 body {
     background-color: rgb(233, 14, 14);
   }
-  #Note{
-    display:flex;
-    display: grid;
-  }
+  
 
   div  p{
     color:ivory;
@@ -40,10 +37,13 @@ body {
       position: relative;
       color:ivory;
       background-color: black;
-      display: grid inline-flex;
+      display: flex;
+      flex-direction:column;
+      flex-wrap:nowrap;
+      flex-grow:initial;
     }
     .form {
-        align-content:space-around;
+        align-content:center;
     }
     
     #cars{
@@ -58,13 +58,16 @@ body {
         padding-bottom: 0cm;
         margin-top: 2%;
         margin-bottom: 2%;
+        display: center;
     }
 
-    #Attende, #Agenda, #Pmeet, #QA{
+    #Attende, #Agenda, #PMeet, #QA{
         padding-top: 0cm;
         padding-bottom: 0cm;
         margin-top: 2%;
         margin-bottom: 2%;
+        display: center;
+        flex-wrap: initial;
     }
     button:hover{
         color:red;
@@ -106,9 +109,14 @@ body {
         color: yellow;
     }
     
-    ul{
+    ul.bullets{
     color:ivory;
      background-color: black;
+     display: grid;
+     grid-row: inherit;
+     grid-auto-columns: initial;
+     grid-template: initial;
+     align-content: center;
     }
 
     li{
